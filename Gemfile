@@ -36,6 +36,12 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml'
 # Paperclip 
 gem "paperclip", "~> 6.0.0"
+# Simple Form 
+gem 'simple_form'
+# bootsrap
+gem 'bootstrap-sass', '~> 3.3.7'
+# jquery
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
