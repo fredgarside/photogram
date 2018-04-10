@@ -55,4 +55,7 @@ Rails.application.configure do
   #imagmagick 
   Paperclip.options[:command_path] = "/usr/local/bin/"
 
+  #devise
+  config.action_mailer.default_url_options = { host: 'http://ec2-35-161-51-238.us-west-2.compute.amazonaws.com', port: 3000 }
+
 end
